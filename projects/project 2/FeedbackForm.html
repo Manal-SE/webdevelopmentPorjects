@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title> FeedBack </title>
+
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+
+	<script src="functions.js"></script>
+
+</head>
+
+<body class="purplebackground">
+
+	<form id="feedbackForm" class ="boraderForm" onsubmit="showInfo();">
+
+
+		<p><h2> Feedback Form</h2></p>
+
+		<p><h4 style="margin-left: 20px;">Please fill out this form to help me improve My site.</h4></p>
+
+	<!-- The name -->
+		<p class ="FormP">
+		<label class= "FormInfo fonttype">Name </label><input id = "Name"  name ="name" type="text" value="" size="20"/></p>
+
+
+	<!--Email-->
+		<p class ="FormP">
+		<label class= "FormInfo fonttype">Email </label><input id = "Email" name ="Email" type="text" size="20"/></p>
+
+	<!--Things you liked-->
+		<p class ="FeedP">
+		<label" >Things you liked on My Site:<br></label>
+		<div class="fonttype">
+		<p class = "checkBoxP"><input id = "design" type="checkbox" name="ch1" velue="Site desigb"/> Site design </p>
+		<p class = "checkBoxP"><input id = "contents" type="checkbox" name="ch2" velue="contents"/> Contents </p>
+		<p class = "checkBoxP"><input id = "easeOfUse" type="checkbox" name="ch2" velue="ease of use"/> Ease of use </p>
+		</div>
+		</p>
+
+
+	<!-- Two Buttons -->
+		<p class ="FormP">
+		<input id = "submit" type ="submit" value= "Submit Your Entries" />
+		<input id = "reset" type ="reset" value="Clear Your Entries"/>
+		</p>
+
+	</form>
+
+</body>
+</html>
